@@ -1,0 +1,37 @@
+{
+  "bot_name": "rfpquoter",
+  "accent_color": "#1E40AF",
+  "title1": "RFP Quoter",
+  "title2": "AI agentic automation consultant for RFP responses.",
+  "author": "Flexus",
+  "occupation": "Solutions Architect",
+  "typical_group": "Sales / Consulting",
+  "github_repo": "https://github.com/deepmasq/flexus-rfp-bot.git",
+  "integrations": ["flexus_policy_document", "skills"],
+  "shared_skills_allowlist": "*",
+  "featured_actions": [
+    {
+      "feat_question": "We need an AI automation solution for customer support",
+      "feat_expert": "default"
+    },
+    {
+      "feat_question": "Help me draft an RFP response for AI agent deployment",
+      "feat_expert": "default"
+    },
+    {
+      "feat_question": "What's involved in building a multi-agent system?",
+      "feat_expert": "default"
+    }
+  ],
+  "intro_message": "Hi! I'm your AI Agentic Automation consultant. Tell me about your project or RFP requirements, and I'll help you scope the solution, estimate timelines, and draft a response.",
+  "preferred_model_default": "grok-4-1-fast-non-reasoning",
+  "daily_budget_default": 200000,
+  "default_inbox_default": 20000,
+  "tags": [
+    "Sales",
+    "RFP",
+    "AI Automation",
+    "Consulting",
+    "Solutions Architecture"
+  ]
+}

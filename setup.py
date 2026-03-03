@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name="flexus_my_bots",
+    name="flexus_rfp_bots",
     version="0.1.0",
     packages=find_packages(),
     include_package_data=True,
@@ -15,7 +15,7 @@ setup(
     author="Flexus Team",
     author_email="",
     long_description_content_type="text/markdown",
-    url="https://github.com/smallcloudai/flexus-bots-repo-template",
+    url="https://github.com/deepmasq/flexus-rfp-bot",
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",

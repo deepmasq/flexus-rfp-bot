@@ -1,0 +1,56 @@
+[
+    {
+        "bs_name": "company_name",
+        "bs_type": "string_short",
+        "bs_default": "",
+        "bs_group": "Company",
+        "bs_order": 1,
+        "bs_importance": 2,
+        "bs_description": "Your company name, used in RFP response headers"
+    },
+    {
+        "bs_name": "company_description",
+        "bs_type": "string_multiline",
+        "bs_default": "",
+        "bs_group": "Company",
+        "bs_order": 2,
+        "bs_importance": 1,
+        "bs_description": "Brief description of your company and AI capabilities"
+    },
+    {
+        "bs_name": "hourly_rate",
+        "bs_type": "int",
+        "bs_default": 150,
+        "bs_group": "Pricing",
+        "bs_order": 1,
+        "bs_importance": 1,
+        "bs_description": "Default hourly rate in USD for engineering estimates"
+    },
+    {
+        "bs_name": "currency",
+        "bs_type": "string_short",
+        "bs_default": "USD",
+        "bs_group": "Pricing",
+        "bs_order": 2,
+        "bs_importance": 0,
+        "bs_description": "Currency for quotes (USD, EUR, GBP)"
+    },
+    {
+        "bs_name": "response_style",
+        "bs_type": "string_short",
+        "bs_default": "professional",
+        "bs_group": "Style",
+        "bs_order": 1,
+        "bs_importance": 0,
+        "bs_description": "Tone of RFP responses: professional, technical, or executive"
+    },
+    {
+        "bs_name": "max_timeline_weeks",
+        "bs_type": "int",
+        "bs_default": 24,
+        "bs_group": "Pricing",
+        "bs_order": 3,
+        "bs_importance": 0,
+        "bs_description": "Maximum project timeline in weeks to quote"
+    }
+]

@@ -1,38 +1,22 @@
-# Repo Template for Making Flexus Bots
+# RFP Quoter Bot for Flexus
 
+An AI solutions architect bot that helps companies respond to RFPs for AI agentic automation projects.
 
-## Works in Built-in IDE
-
-Start your new repository from this template, use "Add Dev Environment" to add it to Flexus, connect to github, voila IDE works!
-
-
-## Works for Visual Studio and Manual Programming
-
-Start your new repository from this template, clone https://github.com/smallcloudai/flexus-client-kit/ nearby, install
-both using pip install -e, done:
+## Quick Start
 
 ```
-gh repo create flexus-my-bot --template smallcloudai/flexus-bots-repo-template --public --clone
 git clone https://github.com/smallcloudai/flexus-client-kit/
 pip install -e flexus-client-kit/
-pip install -e flexus-my-bot/
+pip install -e .
+python -m flexus_client_kit.no_special_code_bot flexus_rfp_bots/rfpquoter/
 ```
 
-The flexus-client-kit repo is helpful because it provides AGENTS.md and examples of simple bots.
+## What It Does
 
+- Discovery conversations to understand customer requirements
+- Architecture recommendations for AI agent systems
+- Project scoping with phase breakdowns and timelines
+- Cost estimation based on team composition and complexity
+- Structured RFP response drafting
 
-## Testing if it Works
-
-In the built-in IDE, press Start and chat with your bot. For manual development:
-
-```
-python -m flexus_client_kit.no_special_code_bot flexus_my_bots/otter/
-```
-
-
-## Next Step
-
-Rename `flexus_my_bots` to match your idea, update the `name=` field in `setup.py` to match.
-
-Rename or delete Otter -- it's there as an example.
-
+Created from [flexus-bots-repo-template](https://github.com/smallcloudai/flexus-bots-repo-template).
